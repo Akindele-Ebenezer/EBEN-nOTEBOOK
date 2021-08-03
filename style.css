@@ -249,6 +249,16 @@ ins {
 	}
 }
 
+@media screen and (max-width: 360px) {
+	.drop-down{
+		display: none;
+	}
+
+	textarea {
+		transform: translateY(-60%);
+	}
+}
+
 @media screen and (max-width: 623px) {
 	#formatting .btn {
 		margin: .5px;
