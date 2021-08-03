@@ -249,13 +249,13 @@ ins {
 	}
 }
 
-@media screen and (max-width: 524px) {
+@media screen and (max-width: 526px) {
 	.drop-down{
 		display: none;
 	}
 
 	textarea {
-		transform: translateY(-60%);
+		transform: translateY(-45%);
 	}
 }
 
