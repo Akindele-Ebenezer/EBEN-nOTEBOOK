@@ -146,7 +146,7 @@ let boldSmallScreen = function() {
 if (textarea.value === ' ') {
 	bold.innerHTML += ' '; 
 }	else {
-	bold.innerHTML += '<br><p class="notes" id="bold-not"> ' + textarea.value + '<button onclick="del_X(this)" class="note-button"><abbr title="Delete Text">x</abbr></button><br></p>' + ''; 
+	bold.innerHTML += '<br><p class="notes" id="bold-not" style="font-weight: bold"> ' + textarea.value + '<button onclick="del_X(this)" class="note-button"><abbr title="Delete Text">x</abbr></button><br></p>' + ''; 
 	} 
 	//bold.innerHTML += '<br><p class="notes" id="bold-note"> ' + textarea.value + '<button onclick="del_X(this)" class="note-button"><abbr title="Delete Text">x</abbr></button><br></p>' + '';
 	textarea.value = ' '; 
@@ -216,7 +216,7 @@ let italicSmallScreen = function() {
 if (textarea.value === ' ') {
 	italic.innerHTML += ' '; 
 }	else {
-	italic.innerHTML += '<br><p class="notes" id="italic-not"> ' + textarea.value + '<button onclick="del_X(this)" class="note-button"><abbr title="Delete Text">x</abbr></button><br></p>' + ''; 
+	italic.innerHTML += '<br><p class="notes" id="italic-not" style="font-style: italic"> ' + textarea.value + '<button onclick="del_X(this)" class="note-button"><abbr title="Delete Text">x</abbr></button><br></p>' + ''; 
 	} 
 	//italic.innerHTML += '<br><p class="notes" id="italic-note"> ' + textarea.value + '<button onclick="del_X(this)" class="note-button"><abbr title="Delete Text">x</abbr></button><br></p>' + '';
 	textarea.value = ' '; 
@@ -255,7 +255,7 @@ let underlineSmallScreen = function() {
 if (textarea.value === ' ') {
 	underline.innerHTML += ' '; 
 }	else {
-	underline.innerHTML += '<br><p class="notes" id="underline-not"> ' + textarea.value + '<button onclick="del_X(this)" class="note-button"><abbr title="Delete Text">x</abbr></button><br></p>' + ''; 
+	underline.innerHTML += '<br><p class="notes" id="underline-not"  style="text-decoration: underline"> ' + textarea.value + '<button onclick="del_X(this)" class="note-button"><abbr title="Delete Text">x</abbr></button><br></p>' + ''; 
 	} 
 	 
 	//underline.innerHTML += '<br><p class="notes" id="underline-note"> ' + textarea.value + '<button onclick="del_X(this)" class="note-button"><abbr title="Delete Text">x</abbr></button><br></p>' + '';
