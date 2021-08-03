@@ -34,21 +34,16 @@ let textColor = function(e) {
 } 
 
 //style formatting pending.............................................................. from
-let fontFamily = function(e) {
-	let fontFam = document.querySelector('section');
-	let textarea = document.querySelector('textarea');
-	//let content = document.querySelector('#right-div #content .notes');
-	let mobileFont = document.querySelector('#mobile-content .notes');
-	//mobileFont.style.fontFamily = '' + e.innerText + ''; 
-	textarea.style.fontFamily = '' + e.innerText + '';
-	let boldText = document.querySelector('#right-div #bold-note');
-	let italicText = document.querySelector('#right-div #italic-note');
-	let underlineText = document.querySelector('#right-div #underline-note');
+let fontFamily = function(e) { 
+	let bigScreenText = document.querySelector('#right-div article#content').children; 
+	for (i = 0; i < bigScreenText.length; i++) { 
+		bigScreenText[i].style.fontFamily = '' + e.innerText + '';
+	}  
 
-	boldText.style.fontFamily = '' + e.innerText + '';
-	italicText.style.fontFamily = '' + e.innerText + '';
-	underlineText.style.fontFamily = '' + e.innerText + '';
-	//console.log(content);	
+	let mobileScreenText = document.querySelector('article#mobile-content').children; 
+	for (i = 0; i < mobileScreenText.length; i++) { 
+		mobileScreenText[i].style.fontFamily = '' + e.innerText + '';
+	}  
 }
 //............................................................................. to
 
