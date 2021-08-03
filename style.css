@@ -113,7 +113,8 @@ ins {
 
 #left-div {
 	background: #fff;  
-	box-shadow: 19px 15px 25px rgb(0, 0, 0)
+	box-shadow: 19px 15px 25px rgb(0, 0, 0);
+	overflow: scroll;
 }
 
 @media (orientation: landscape) { 
@@ -347,6 +348,36 @@ p.font:hover {
 	width: 63.5vw; 
 } 
 
+#readMe { 
+	background: #fff;
+	display: inline-block;
+	font-size: 90%;
+	padding: 1.5rem;
+	margin-left: .524rem; 
+} 
+
+#readME { 
+	background: #fff;
+	display: inline-block;
+	font-size: 90%; 
+	padding: 1.5rem;
+	margin-left: .524rem;  
+} 
+#readME li { 
+	background: #fff; 
+	color: #333;
+	padding: .5rem;
+} 
+
+#readMe li { 
+	background: #fff; 
+	color: #333;
+	padding: .5rem;
+} 
+
+#readMe p { 
+	background: #fff; 
+} 
 #right-div .btn {
 	border: 1px solid #000;
 	padding: 1em;
@@ -426,6 +457,7 @@ textarea {
 	max-height: 50%;
 	min-width: 90%;
 	max-width: 90%;
+	transform: translateY(-2rem);
 }
 
 textarea:hover {
