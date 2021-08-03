@@ -288,6 +288,12 @@ ins {
 	} 
 }
 
+@media screen and (max-width: 368px) {
+	textarea#mobile-text-view {
+		transform: translateY(-11rem);
+	} 
+}
+
 .notes {
 	background: #000; 
 	border-radius: 10px; 
